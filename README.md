@@ -6,7 +6,9 @@ Windows
 
 If you have not yet installed Python on your Windows OS, then download and install the latest Python3 installer from Python Downloads Page.
 
-Download Python: Visit the [official Python website](https://www.python.org/downloads/) and download the latest version for Windows.
+Download Python: 
+
+Visit the [official Python website](https://www.python.org/downloads/) and download the latest version for Windows.
 Install Python: Run the downloaded installer. Important: During the installation, make sure to select the option “Add Python to PATH”.
 
 Make sure to check the box during installation which adds Python to PATH. Labeled something like Add Python 3.X to PATH
@@ -17,6 +19,7 @@ The easiest way to do this is to find the new shortcut for Python in your start 
 For Python2, this will likely be something like C:\Python27
 For Python3, this will likely be something like C:\Users\<USERNAME>\AppData\Local\Programs\Python\Python37
 Open your Advanced System Settings window, navigate to the "Advanced" tab, and click the "Environment Variables" button
+
 Create a new system variable:
 Variable name: PYTHON_HOME
 Variable value: <your_python_installation_directory>
